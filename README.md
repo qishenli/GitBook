@@ -4,7 +4,7 @@
 
 &#x20;For heap data structure, it is a complete binary tree for data storage. For the Linux heap, it is just the space allocated by the Linux system, not a tree. These two conceptions are totally different.
 
-![](<.gitbook/assets/image (1).png>)
+![](.gitbook/assets/image.png)
 
 ### Linux Stack & Heap Works
 
@@ -32,15 +32,15 @@ The difference between malloc and calloc is 1. malloc only allocates a single si
 
 ### How Heap works
 
-Suppose the hotel front desk helps you to check-in. There are several types of housing: one guest room, two guest room, a penthouse, etc. Guest A order a one-guest room and the room number is 403.   After living in 1 day, guest A checks out first at the front desk and leaves the hotel. Guest B later on checks in and asks whether there is a new room for him to live in. Because guest A just check out the 403 room, the front desk would recommend guest B to live in the 403.
+Suppose the hotel front desk helps you to check-in. There are several types of housing: one guest room, two guest room, a penthouse, etc. Guest A order a one-guest room and the room number is 403.   After living in 1 day, guest A checks out first at the front desk and leaves the hotel. Guest B later on checks in and asks whether there is a new room for him to live in. Because guest A just check out the 403 room, the front desk would let guest B to live in the 403.
 
 But, a "heap" hotel is not a good hotel. It does not have a cleaner to clean the house. For guest B, he will see a really messy room and he has to clean it by himself. You may ask: why the hotel does not have a cleaning service? It is because the cleaning service is expensive! The hotel must hire a cleaner, buy cleaning devices and pay cleaner wages!
 
-Similar to "heap" hotel, the program uses functions to request space from memory. Once the program makes a request, the system will allocate a space to the program. The program uses free() when it does not need that space anymore. When the program needs the space again, the system will check whether there are some spaces that were being used previously.&#x20;
-
-
+Similar to a "heap" hotel, the program uses functions to request space from memory. Once the program makes a request, the system will allocate a space to the program. The program uses free() when it does not need that space anymore. When the program needs the space again, the system will check whether there are some spaces that were being used previously. The program will allocate to the program the "old" spaces first and then when "old" spaces are all being used, the system will give the program the new spaces.
 
 #### How Fastbin works
+
+
 
 
 
