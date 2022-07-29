@@ -40,7 +40,7 @@ Similar to a "heap" hotel, the program uses functions to request space from memo
 
 #### How Fastbin works
 
-
+Fastbin is the subset of the bin in the heap. For fastbin, when 
 
 
 
