@@ -4,7 +4,7 @@
 
 &#x20;For heap data structure, it is a complete binary tree for data storage. For the Linux heap, it is just the space allocated by the Linux system, not a tree. These two conceptions are totally different.
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 
 ### Linux Stack & Heap Works
 
@@ -32,7 +32,7 @@ The difference between malloc and calloc is 1. malloc only allocates a single si
 
 ### How Heap works
 
-Suppose the hotel front desk helps you to check in. There are several types of housing: one guest room, two guest room, a penthouse, etc. Guest A order a one-guest room and the room number is 403.   After living in 1 day, guest A checks out first at the front desk and leaves the hotel. Guest B later on checks in and asks whether there is a new room for him to live in. Because guest A just check out the 403 room, the front desk would recommend guest B to live in the 403.
+Suppose the hotel front desk helps you to check-in. There are several types of housing: one guest room, two guest room, a penthouse, etc. Guest A order a one-guest room and the room number is 403.   After living in 1 day, guest A checks out first at the front desk and leaves the hotel. Guest B later on checks in and asks whether there is a new room for him to live in. Because guest A just check out the 403 room, the front desk would recommend guest B to live in the 403.
 
 But, a "heap" hotel is not a good hotel. It does not have a cleaner to clean the house. For guest B, he will see a really messy room and he has to clean it by himself. You may ask: why the hotel does not have a cleaning service? It is because the cleaning service is expensive! The hotel must hire a cleaner, buy cleaning devices and pay cleaner wages!
 
